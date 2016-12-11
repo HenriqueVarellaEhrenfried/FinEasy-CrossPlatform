@@ -1,0 +1,90 @@
+{
+    "app_version":1.0,
+    "json_version":1.0,
+    "total_spent":999.99,
+    "total_received":1000.00,
+    "currency":"R$",
+    "last_modified":"DD-MM-YYYY>HH:mm:ss",
+    "create_date":"DD-MM-YYYY>HH:mm:ss",
+    "reference_year":2016,
+    "reference_month":1,
+    "source_of_income":[
+        {
+            "source": "name",
+            "fixed_source":"yes",
+            "amount": 123.00,
+            "number_of_installments":2,
+            "current_installment":1,
+            "total_amount":246.00,
+            "received":"yes",
+            "when_received":"DD-MM-YYYY>HH:mm:ss",
+            "how_received":"cash",
+            "notes":""
+        }
+    ],
+    "fixed_payments":[
+        {
+            "source": "name",
+            "amount": 123.00,
+            "paid":"yes",
+            "when_paid":"DD-MM-YYYY>HH:mm:ss",
+            "how_paid":"cash",
+            "notes":""
+        }
+    ],
+    "card":[
+        {
+            "card_number":1,
+            "card_name":"main_card",
+            "card_type":"credit",
+            "source": "name",
+            "amount": 123.00,
+            "number_of_installments":2,
+            "current_installment":1,
+            "total_amount":246.00,
+            "paid":"yes",
+            "when_paid":"DD-MM-YYYY>HH:mm:ss",
+            "how_paid":"cash",
+            "notes":""
+        }
+    ],
+    "installment_payment":[
+        {
+            "source": "name",
+            "amount": 123.00,
+            "number_of_installments":2,
+            "current_installment":1,
+            "total_amount":246.00,
+            "paid":"yes",
+            "when_paid":"DD-MM-YYYY>HH:mm:ss",
+            "how_paid":"cash",
+            "notes":""
+        }
+    ],
+    "debit_bank_entry":[
+        {
+            "source": "name",
+            "amount": 123.00,
+            "number_of_installments":2,
+            "current_installment":1,
+            "total_amount":246.00,
+            "paid":"yes",
+            "when_paid":"DD-MM-YYYY>HH:mm:ss",
+            "how_paid":"cash",
+            "notes":""
+        }
+    ],
+    "other_payments":[
+        {
+            "source": "name",
+            "amount": 123.00,
+            "number_of_installments":2,
+            "current_installment":1,
+            "total_amount":246.00,
+            "received":"yes",
+            "when_received":"DD-MM-YYYY>HH:mm:ss",
+            "how_received":"cash",
+            "notes":""
+        }
+    ]
+}
