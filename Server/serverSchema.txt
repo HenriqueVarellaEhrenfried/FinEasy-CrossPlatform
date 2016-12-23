@@ -1,0 +1,47 @@
+CREATE TABLE Users(
+    appVersion varchar(255),
+    userID bigint,
+    loginID bigint,
+    typeOfAccount varchar(255),
+    name varchar(255),
+    defaultCurrency varchar(255),
+    userCreationDate varchar(255)
+);
+CREATE TABLE Logins(
+    email varchar(255),
+    encrypted_password varchar(255),
+    userID bigint
+);
+CREATE TABLE Tabs(
+    tabID bigint,
+    userID bigint,
+    paymentID bigint,
+    typeOfTab varchar(255),
+    tabName varchar(255),
+    year int,
+    month int,
+);
+CREATE TABLE Payments(
+    paymentID bigint,
+    paymentType varchar(255),
+    paymentName varchar(255),
+    paymentDescription varchar(255)
+);
+CREATE TABLE Contents(
+    tabID bigint,
+    source varchar(255),
+    name varchar(255),
+    totalAmount varchar(255),
+    numberOfInstallments int, 
+    currentInstallmentNumber int,
+    installmentPrice float,
+    alreadyPaid int,
+    whenPaid varchar(255),
+    howPaid varchar(255),
+    notes varchar(255)
+);
+------------------------
+Users 1---1 Logins
+Users 1---* Tabs
+Tabs 1---* Contents
+Tabs 1---1 Payments
