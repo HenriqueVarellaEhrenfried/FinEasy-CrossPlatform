@@ -1,34 +1,33 @@
 CREATE TABLE Users(
-    appVersion varchar(255),
-    userID bigint,
-    loginID bigint,
-    typeOfAccount varchar(255),
+    userID bigserial,
+    loginID bigserial,
     name varchar(255),
     defaultCurrency varchar(255),
+    lastModified varchar(255),
     userCreationDate varchar(255)
 );
 CREATE TABLE Logins(
     email varchar(255),
     encrypted_password varchar(255),
-    userID bigint
+    userID bigserial
 );
 CREATE TABLE Tabs(
-    tabID bigint,
-    userID bigint,
-    paymentID bigint,
+    tabID bigserial,
+    userID bigserial,
+    paymentID bigserial,
     typeOfTab varchar(255),
     tabName varchar(255),
     year int,
     month int,
 );
 CREATE TABLE Payments(
-    paymentID bigint,
+    paymentID bigserial,
     paymentType varchar(255),
     paymentName varchar(255),
     paymentDescription varchar(255)
 );
 CREATE TABLE Contents(
-    tabID bigint,
+    tabID bigserial,
     source varchar(255),
     name varchar(255),
     totalAmount varchar(255),

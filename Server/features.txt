@@ -1,0 +1,11 @@
+-Criar conta :OK
+-Login
+-CRUD aba
+-CRUD pagamanto
+-CRUD Conteudo
+-Somar recebimentos mensais
+-Somar débitos mensais
+-Projetar contas/recebimentos parcelados para meses futuros
+-Atualizar moeda padrão
+-Retorna senha ecnriptada :OK
+

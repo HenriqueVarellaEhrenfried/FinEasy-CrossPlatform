@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for the app FinEasy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HVE",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "monetdb": "^1.1.2",
+    "multer": "^1.1.0",
+    "pg": "^6.0.1",
+    "pg-query": "^0.11.0",
+    "bcryptjs": "^2.4.0"
+  }
+}
